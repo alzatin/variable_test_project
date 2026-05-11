@@ -262,8 +262,8 @@
         },
         {
           "atomType": "Molecule",
-          "x": 0.33963585434173665,
-          "y": 0.41194029850746267,
+          "x": 0.34026465028355385,
+          "y": 0.4085365853658537,
           "uniqueID": "id-9644",
           "name": "Level2Branch1Twig1",
           "ioValues": [
@@ -280,6 +280,11 @@
             {
               "name": "h",
               "ioValue": 50
+            },
+            {
+              "name": "j",
+              "ioValue": 140,
+              "currentEquation": "g + f"
             }
           ],
           "topLevel": false,
@@ -399,6 +404,10 @@
                 {
                   "name": "k",
                   "ioValue": 50
+                },
+                {
+                  "name": "l",
+                  "ioValue": 190
                 }
               ],
               "topLevel": false,
@@ -537,11 +546,6 @@
         {
           "ap2Name": "h",
           "ap1ID": "id-9630",
-          "ap2ID": "id-9644"
-        },
-        {
-          "ap2Name": "j",
-          "ap1ID": "id-9640",
           "ap2ID": "id-9644"
         }
       ],
