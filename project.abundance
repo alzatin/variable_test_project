@@ -1,13 +1,216 @@
 {
-    "atomType": "Molecule",
-    "x": 0,
-    "y": 0,
-    "uniqueID": "id-9586",
-    "name": "variable_test_project",
-    "topLevel": true,
-    "allAtoms": [],
-    "allConnectors": [],
-    "unitsKey": "MM",
-    "fileTypeVersion": 1,
-    "filetypeVersion": 1
+  "atomType": "Molecule",
+  "x": 0,
+  "y": 0,
+  "uniqueID": "id-9586",
+  "name": "variable_test_project",
+  "ioValues": [
+    {
+      "name": "a",
+      "ioValue": 20
+    },
+    {
+      "name": "b",
+      "ioValue": 30
+    },
+    {
+      "name": "c",
+      "ioValue": 40
+    },
+    {
+      "name": "d",
+      "ioValue": 50
+    }
+  ],
+  "topLevel": true,
+  "allAtoms": [
+    {
+      "atomType": "Output",
+      "x": 0.98,
+      "y": 0.5,
+      "uniqueID": "id-9587",
+      "ioValues": [
+        {
+          "name": "number or geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ]
+    },
+    {
+      "atomType": "Input",
+      "x": 0.0165,
+      "y": 0.1,
+      "uniqueID": "id-9589",
+      "name": "a"
+    },
+    {
+      "atomType": "Input",
+      "x": 0.0165,
+      "y": 0.16,
+      "uniqueID": "id-9592",
+      "name": "b"
+    },
+    {
+      "atomType": "Input",
+      "x": 0.0165,
+      "y": 0.22,
+      "uniqueID": "id-9595",
+      "name": "c"
+    },
+    {
+      "atomType": "Input",
+      "x": 0.0165,
+      "y": 0.28,
+      "uniqueID": "id-9598",
+      "name": "d"
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.12028047464940668,
+      "y": 0.2748267898383372,
+      "uniqueID": "id-9601",
+      "name": "a + b",
+      "currentEquation": "a + b"
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.11650485436893203,
+      "y": 0.44110854503464203,
+      "uniqueID": "id-9605",
+      "name": "c + d",
+      "currentEquation": "c + d"
+    },
+    {
+      "atomType": "Molecule",
+      "x": 0.27939590075512405,
+      "y": 0.2817551963048499,
+      "uniqueID": "id-9609",
+      "name": "Level1Branch1",
+      "ioValues": [
+        {
+          "name": "a",
+          "ioValue": 20,
+          "currentEquation": "a"
+        },
+        {
+          "name": "b",
+          "ioValue": 30,
+          "currentEquation": "b"
+        },
+        {
+          "name": "c",
+          "ioValue": 40,
+          "currentEquation": "c"
+        }
+      ],
+      "topLevel": false,
+      "allAtoms": [
+        {
+          "atomType": "Output",
+          "x": 0.98,
+          "y": 0.5,
+          "uniqueID": "id-9611",
+          "ioValues": [
+            {
+              "name": "number or geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ]
+        },
+        {
+          "atomType": "Input",
+          "x": 0.0165,
+          "y": 0.1,
+          "uniqueID": "id-9621",
+          "name": "a"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.0165,
+          "y": 0.16,
+          "uniqueID": "id-9624",
+          "name": "b"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.0165,
+          "y": 0.22,
+          "uniqueID": "id-9627",
+          "name": "c"
+        },
+        {
+          "atomType": "Equation",
+          "x": 0.14617044228694714,
+          "y": 0.27251732101616627,
+          "uniqueID": "id-9630",
+          "name": "x + y",
+          "ioValues": [
+            {
+              "name": "x",
+              "ioValue": 1
+            },
+            {
+              "name": "y",
+              "ioValue": 1
+            }
+          ],
+          "currentEquation": "x + y"
+        }
+      ],
+      "allConnectors": [],
+      "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Molecule",
+      "x": 0.2810140237324703,
+      "y": 0.4942263279445727,
+      "uniqueID": "id-9613",
+      "name": "Level1Branch2",
+      "topLevel": false,
+      "allAtoms": [
+        {
+          "atomType": "Output",
+          "x": 0.98,
+          "y": 0.5,
+          "uniqueID": "id-9615",
+          "ioValues": [
+            {
+              "name": "number or geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ]
+        }
+      ],
+      "allConnectors": [],
+      "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Molecule",
+      "x": 0.2810140237324703,
+      "y": 0.7205542725173211,
+      "uniqueID": "id-9617",
+      "name": "Level1Branch3",
+      "topLevel": false,
+      "allAtoms": [
+        {
+          "atomType": "Output",
+          "x": 0.98,
+          "y": 0.5,
+          "uniqueID": "id-9619",
+          "ioValues": [
+            {
+              "name": "number or geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ]
+        }
+      ],
+      "allConnectors": [],
+      "fileTypeVersion": 1
+    }
+  ],
+  "allConnectors": [],
+  "unitsKey": "MM",
+  "fileTypeVersion": 1,
+  "filetypeVersion": 1
 }
