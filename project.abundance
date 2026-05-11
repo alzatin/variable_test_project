@@ -130,8 +130,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.3534971644612476,
-      "y": 0.2652439024390244,
+      "x": 0.3529411764705882,
+      "y": 0.26567164179104474,
       "uniqueID": "id-9609",
       "name": "Level1Branch1",
       "ioValues": [
@@ -217,14 +217,6 @@
           "name": "f"
         },
         {
-          "atomType": "Equation",
-          "x": 0.1767485822306238,
-          "y": 0.6280487804878049,
-          "uniqueID": "id-9640",
-          "name": "g + f",
-          "currentEquation": "g + f"
-        },
-        {
           "atomType": "Rectangle",
           "x": 0.3915857605177993,
           "y": 0.7113163972286374,
@@ -294,14 +286,14 @@
             {
               "atomType": "Input",
               "x": 0.021449999999999997,
-              "y": 0.4388059701492537,
+              "y": 0.37910447761194027,
               "uniqueID": "id-9663",
               "name": "h"
             },
             {
               "atomType": "Input",
               "x": 0.021449999999999997,
-              "y": 0.35820895522388063,
+              "y": 0.44776119402985076,
               "uniqueID": "id-9666",
               "name": "j"
             },
@@ -312,14 +304,6 @@
               "uniqueID": "id-9716",
               "name": "a + b",
               "currentEquation": "a + b"
-            },
-            {
-              "atomType": "Equation",
-              "x": 0.14285714285714285,
-              "y": 0.6746268656716418,
-              "uniqueID": "id-9720",
-              "name": "h + j",
-              "currentEquation": "h + j"
             },
             {
               "atomType": "Rectangle",
@@ -355,14 +339,6 @@
                   "ioValue": 10
                 }
               ]
-            },
-            {
-              "atomType": "Equation",
-              "x": 0.27882797731569,
-              "y": 0.7621951219512195,
-              "uniqueID": "id-9831",
-              "name": "h + j",
-              "currentEquation": "h + j"
             },
             {
               "atomType": "Molecule",
@@ -491,6 +467,14 @@
               ],
               "allConnectors": [],
               "fileTypeVersion": 1
+            },
+            {
+              "atomType": "Equation",
+              "x": 0.13375350140056022,
+              "y": 0.7373134328358208,
+              "uniqueID": "id-9917",
+              "name": "h + j",
+              "currentEquation": "h + j"
             }
           ],
           "allConnectors": [
@@ -501,6 +485,14 @@
             }
           ],
           "fileTypeVersion": 1
+        },
+        {
+          "atomType": "Equation",
+          "x": 0.1792717086834734,
+          "y": 0.6417910447761194,
+          "uniqueID": "id-9913",
+          "name": "g + f",
+          "currentEquation": "g + f"
         }
       ],
       "allConnectors": [
