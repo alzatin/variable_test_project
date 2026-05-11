@@ -130,8 +130,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.3480392156862745,
-      "y": 0.28059701492537314,
+      "x": 0.3534971644612476,
+      "y": 0.2652439024390244,
       "uniqueID": "id-9609",
       "name": "Level1Branch1",
       "ioValues": [
@@ -325,7 +325,7 @@
             {
               "atomType": "Input",
               "x": 0.0264,
-              "y": 0.5365853658536586,
+              "y": 0.44799999999999995,
               "uniqueID": "id-9666",
               "name": "j"
             },
@@ -382,8 +382,8 @@
             },
             {
               "atomType": "Molecule",
-              "x": 0.3799621928166351,
-              "y": 0.5792682926829268,
+              "x": 0.3742911153119093,
+              "y": 0.6128048780487805,
               "uniqueID": "id-9669",
               "name": "Level3Branch1Twig1Leaf1",
               "ioValues": [
@@ -393,21 +393,13 @@
                   "currentEquation": "f"
                 },
                 {
-                  "name": "h",
-                  "ioValue": 50,
-                  "currentEquation": "h"
-                },
-                {
-                  "name": "j",
-                  "ioValue": 10
-                },
-                {
                   "name": "k",
                   "ioValue": 50
                 },
                 {
                   "name": "l",
-                  "ioValue": 190
+                  "ioValue": 190,
+                  "currentEquation": "h + j"
                 }
               ],
               "topLevel": false,
@@ -432,39 +424,25 @@
                   "name": "f"
                 },
                 {
-                  "atomType": "Input",
-                  "x": 0.0264,
-                  "y": 0.256,
-                  "uniqueID": "id-9688",
-                  "name": "h"
-                },
-                {
-                  "atomType": "Input",
-                  "x": 0.0264,
-                  "y": 0.352,
-                  "uniqueID": "id-9691",
-                  "name": "j"
-                },
-                {
                   "atomType": "Equation",
-                  "x": 0.13052858683926646,
-                  "y": 0.20554272517321018,
+                  "x": 0.20132325141776936,
+                  "y": 0.2713414634146341,
                   "uniqueID": "id-9700",
                   "name": "a + b",
                   "currentEquation": "a + b"
                 },
                 {
                   "atomType": "Equation",
-                  "x": 0.1267529665587918,
-                  "y": 0.4434180138568129,
+                  "x": 0.1729678638941399,
+                  "y": 0.6829268292682927,
                   "uniqueID": "id-9704",
                   "name": "h + j",
                   "currentEquation": "h + j"
                 },
                 {
                   "atomType": "Rectangle",
-                  "x": 0.2971952535059331,
-                  "y": 0.26558891454965355,
+                  "x": 0.3449905482041588,
+                  "y": 0.35060975609756095,
                   "uniqueID": "id-9708",
                   "ioValues": [
                     {
@@ -481,10 +459,14 @@
                 },
                 {
                   "atomType": "Rectangle",
-                  "x": 0.2928802588996764,
-                  "y": 0.6258660508083141,
+                  "x": 0.2930056710775047,
+                  "y": 0.5670731707317073,
                   "uniqueID": "id-9712",
                   "ioValues": [
+                    {
+                      "name": "x length",
+                      "ioValue": 10
+                    },
                     {
                       "name": "y length",
                       "ioValue": 10
@@ -507,8 +489,8 @@
                 },
                 {
                   "atomType": "Rectangle",
-                  "x": 0.36192017259978426,
-                  "y": 0.41108545034642036,
+                  "x": 0.44612476370510395,
+                  "y": 0.399390243902439,
                   "uniqueID": "id-9746",
                   "ioValues": [
                     {
@@ -531,11 +513,6 @@
             {
               "ap2Name": "k",
               "ap1ID": "id-9716",
-              "ap2ID": "id-9669"
-            },
-            {
-              "ap2Name": "l",
-              "ap1ID": "id-9720",
               "ap2ID": "id-9669"
             }
           ],
