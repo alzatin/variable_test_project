@@ -6,10 +6,10 @@
 
 ## Inputs
 
-- **b** (number)
-- **d** (number)
 - **a** (number)
+- **b** (number)
 - **c** (number)
+- **d** (number)
 
 
 

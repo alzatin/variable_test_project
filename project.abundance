@@ -6,20 +6,20 @@
   "name": "variable_test_project",
   "ioValues": [
     {
-      "name": "b",
-      "ioValue": 30
-    },
-    {
-      "name": "d",
-      "ioValue": 50
-    },
-    {
       "name": "a",
       "ioValue": 20
     },
     {
+      "name": "b",
+      "ioValue": 30
+    },
+    {
       "name": "c",
       "ioValue": 40
+    },
+    {
+      "name": "d",
+      "ioValue": 50
     }
   ],
   "topLevel": true,
@@ -82,8 +82,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.2810140237324703,
-      "y": 0.4942263279445727,
+      "x": 0.26937618147448017,
+      "y": 0.5182926829268293,
       "uniqueID": "id-9613",
       "name": "Level1Branch2",
       "topLevel": false,
@@ -130,8 +130,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.49810964083175796,
-      "y": 0.3292682926829268,
+      "x": 0.49432892249527416,
+      "y": 0.33231707317073167,
       "uniqueID": "id-9609",
       "name": "Level1Branch1",
       "ioValues": [
@@ -438,6 +438,14 @@
                   "currentEquation": "c"
                 },
                 {
+                  "name": "g",
+                  "ioValue": 10
+                },
+                {
+                  "name": "f",
+                  "ioValue": 10
+                },
+                {
                   "name": "h",
                   "ioValue": 50,
                   "currentEquation": "h"
@@ -558,6 +566,10 @@
                   "y": 0.6258660508083141,
                   "uniqueID": "id-9712",
                   "ioValues": [
+                    {
+                      "name": "x length",
+                      "ioValue": 10
+                    },
                     {
                       "name": "y length",
                       "ioValue": 10
