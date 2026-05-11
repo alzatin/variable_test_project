@@ -282,8 +282,8 @@
             },
             {
               "atomType": "Molecule",
-              "x": 0.22384034519956852,
-              "y": 0.27020785219399535,
+              "x": 0.2691477885652643,
+              "y": 0.6466512702078522,
               "uniqueID": "id-9669",
               "name": "Level3Branch1Twig1Leaf1",
               "ioValues": [
@@ -321,6 +321,14 @@
                   "name": "j",
                   "ioValue": 140,
                   "currentEquation": "j"
+                },
+                {
+                  "name": "k",
+                  "ioValue": 50
+                },
+                {
+                  "name": "l",
+                  "ioValue": 190
                 }
               ],
               "topLevel": false,
@@ -437,6 +445,38 @@
                       "currentEquation": "j"
                     }
                   ]
+                },
+                {
+                  "atomType": "Input",
+                  "x": 0.0165,
+                  "y": 0.52,
+                  "uniqueID": "id-9740",
+                  "name": "k"
+                },
+                {
+                  "atomType": "Input",
+                  "x": 0.0165,
+                  "y": 0.5800000000000001,
+                  "uniqueID": "id-9743",
+                  "name": "l"
+                },
+                {
+                  "atomType": "Rectangle",
+                  "x": 0.40884573894282633,
+                  "y": 0.5150115473441108,
+                  "uniqueID": "id-9746",
+                  "ioValues": [
+                    {
+                      "name": "x length",
+                      "ioValue": 50,
+                      "currentEquation": "k"
+                    },
+                    {
+                      "name": "y length",
+                      "ioValue": 190,
+                      "currentEquation": "l"
+                    }
+                  ]
                 }
               ],
               "allConnectors": [],
@@ -495,7 +535,18 @@
               ]
             }
           ],
-          "allConnectors": [],
+          "allConnectors": [
+            {
+              "ap2Name": "k",
+              "ap1ID": "id-9716",
+              "ap2ID": "id-9669"
+            },
+            {
+              "ap2Name": "l",
+              "ap1ID": "id-9720",
+              "ap2ID": "id-9669"
+            }
+          ],
           "fileTypeVersion": 1
         },
         {
