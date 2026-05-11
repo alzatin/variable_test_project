@@ -227,8 +227,8 @@
         },
         {
           "atomType": "Molecule",
-          "x": 0.3592436974789916,
-          "y": 0.41194029850746267,
+          "x": 0.3497164461247637,
+          "y": 0.4207317073170732,
           "uniqueID": "id-9644",
           "name": "Level2Branch1Twig1",
           "ioValues": [
@@ -393,7 +393,8 @@
                   "ioValues": [
                     {
                       "name": "x length",
-                      "ioValue": 10
+                      "ioValue": 210,
+                      "currentEquation": "l"
                     },
                     {
                       "name": "y length",
