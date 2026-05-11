@@ -74,7 +74,7 @@
     },
     {
       "atomType": "Equation",
-      "x": 0.11650485436893203,
+      "x": 0.11596548004314995,
       "y": 0.44110854503464203,
       "uniqueID": "id-9605",
       "name": "c + d",
@@ -101,6 +101,14 @@
           "name": "c",
           "ioValue": 40,
           "currentEquation": "c"
+        },
+        {
+          "name": "g",
+          "ioValue": 50
+        },
+        {
+          "name": "f",
+          "ioValue": 90
         }
       ],
       "topLevel": false,
@@ -134,30 +142,185 @@
         {
           "atomType": "Input",
           "x": 0.0165,
-          "y": 0.22,
+          "y": 0.21709006928406466,
           "uniqueID": "id-9627",
           "name": "c"
         },
         {
           "atomType": "Equation",
-          "x": 0.14617044228694714,
-          "y": 0.27251732101616627,
+          "x": 0.1348435814455232,
+          "y": 0.22170900692840645,
           "uniqueID": "id-9630",
-          "name": "x + y",
+          "name": "a + b",
+          "currentEquation": "a + b"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.0165,
+          "y": 0.28,
+          "uniqueID": "id-9634",
+          "name": "g"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.0165,
+          "y": 0.3325635103926097,
+          "uniqueID": "id-9637",
+          "name": "f"
+        },
+        {
+          "atomType": "Equation",
+          "x": 0.12998921251348436,
+          "y": 0.40415704387990764,
+          "uniqueID": "id-9640",
+          "name": "g + f",
+          "currentEquation": "g + f"
+        },
+        {
+          "atomType": "Molecule",
+          "x": 0.2669902912621359,
+          "y": 0.2586605080831409,
+          "uniqueID": "id-9644",
+          "name": "Level2Branch1Twig1",
           "ioValues": [
             {
-              "name": "x",
-              "ioValue": 1
+              "name": "a",
+              "ioValue": 20,
+              "currentEquation": "a"
             },
             {
-              "name": "y",
-              "ioValue": 1
+              "name": "b",
+              "ioValue": 30,
+              "currentEquation": "b"
+            },
+            {
+              "name": "c",
+              "ioValue": 40,
+              "currentEquation": "c"
+            },
+            {
+              "name": "g",
+              "ioValue": 50,
+              "currentEquation": "g"
+            },
+            {
+              "name": "f",
+              "ioValue": 90,
+              "currentEquation": "f"
+            },
+            {
+              "name": "h",
+              "ioValue": 50
+            },
+            {
+              "name": "j",
+              "ioValue": 140
             }
           ],
-          "currentEquation": "x + y"
+          "topLevel": false,
+          "allAtoms": [
+            {
+              "atomType": "Output",
+              "x": 0.98,
+              "y": 0.5,
+              "uniqueID": "id-9646",
+              "ioValues": [
+                {
+                  "name": "number or geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                }
+              ]
+            },
+            {
+              "atomType": "Input",
+              "x": 0.0165,
+              "y": 0.1,
+              "uniqueID": "id-9648",
+              "name": "a"
+            },
+            {
+              "atomType": "Input",
+              "x": 0.0165,
+              "y": 0.16,
+              "uniqueID": "id-9651",
+              "name": "b"
+            },
+            {
+              "atomType": "Input",
+              "x": 0.0165,
+              "y": 0.22,
+              "uniqueID": "id-9654",
+              "name": "c"
+            },
+            {
+              "atomType": "Input",
+              "x": 0.0165,
+              "y": 0.28,
+              "uniqueID": "id-9657",
+              "name": "g"
+            },
+            {
+              "atomType": "Input",
+              "x": 0.0165,
+              "y": 0.34,
+              "uniqueID": "id-9660",
+              "name": "f"
+            },
+            {
+              "atomType": "Input",
+              "x": 0.0165,
+              "y": 0.4,
+              "uniqueID": "id-9663",
+              "name": "h"
+            },
+            {
+              "atomType": "Input",
+              "x": 0.0165,
+              "y": 0.46,
+              "uniqueID": "id-9666",
+              "name": "j"
+            },
+            {
+              "atomType": "Molecule",
+              "x": 0.2259978425026969,
+              "y": 0.3856812933025404,
+              "uniqueID": "id-9669",
+              "name": "Molecule",
+              "topLevel": false,
+              "allAtoms": [
+                {
+                  "atomType": "Output",
+                  "x": 0.98,
+                  "y": 0.5,
+                  "uniqueID": "id-9671",
+                  "ioValues": [
+                    {
+                      "name": "number or geometry",
+                      "ioValue": "__GEOMETRY_INPUT__"
+                    }
+                  ]
+                }
+              ],
+              "allConnectors": [],
+              "fileTypeVersion": 1
+            }
+          ],
+          "allConnectors": [],
+          "fileTypeVersion": 1
         }
       ],
-      "allConnectors": [],
+      "allConnectors": [
+        {
+          "ap2Name": "h",
+          "ap1ID": "id-9630",
+          "ap2ID": "id-9644"
+        },
+        {
+          "ap2Name": "j",
+          "ap1ID": "id-9640",
+          "ap2ID": "id-9644"
+        }
+      ],
       "fileTypeVersion": 1
     },
     {
@@ -209,7 +372,18 @@
       "fileTypeVersion": 1
     }
   ],
-  "allConnectors": [],
+  "allConnectors": [
+    {
+      "ap2Name": "g",
+      "ap1ID": "id-9601",
+      "ap2ID": "id-9609"
+    },
+    {
+      "ap2Name": "f",
+      "ap1ID": "id-9605",
+      "ap2ID": "id-9609"
+    }
+  ],
   "unitsKey": "MM",
   "fileTypeVersion": 1,
   "filetypeVersion": 1
