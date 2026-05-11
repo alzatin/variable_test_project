@@ -130,8 +130,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.3214285714285714,
-      "y": 0.37910447761194027,
+      "x": 0.32633053221288516,
+      "y": 0.382089552238806,
       "uniqueID": "id-9609",
       "name": "Level1Branch1",
       "ioValues": [
@@ -169,14 +169,14 @@
         {
           "atomType": "Input",
           "x": 0.021449999999999997,
-          "y": 0.3611940298507463,
+          "y": 0.13,
           "uniqueID": "id-9634",
           "name": "g"
         },
         {
           "atomType": "Input",
           "x": 0.021449999999999997,
-          "y": 0.44200000000000006,
+          "y": 0.20800000000000002,
           "uniqueID": "id-9637",
           "name": "f"
         },
@@ -217,9 +217,17 @@
           ]
         },
         {
+          "atomType": "Equation",
+          "x": 0.1799719887955182,
+          "y": 0.6447761194029851,
+          "uniqueID": "id-9999",
+          "name": "g + f",
+          "currentEquation": "g + f"
+        },
+        {
           "atomType": "Molecule",
-          "x": 0.34026465028355385,
-          "y": 0.4085365853658537,
+          "x": 0.3487394957983193,
+          "y": 0.38805970149253727,
           "uniqueID": "id-9644",
           "name": "Level2Branch1Twig1",
           "ioValues": [
@@ -253,13 +261,6 @@
               "y": 0.13,
               "uniqueID": "id-9663",
               "name": "h"
-            },
-            {
-              "atomType": "Input",
-              "x": 0.021449999999999997,
-              "y": 0.20800000000000002,
-              "uniqueID": "id-9666",
-              "name": "j"
             },
             {
               "atomType": "Equation",
@@ -305,12 +306,11 @@
               ]
             },
             {
-              "atomType": "Equation",
-              "x": 0.13375350140056022,
-              "y": 0.7373134328358208,
-              "uniqueID": "id-9917",
-              "name": "h + j",
-              "currentEquation": "h + j"
+              "atomType": "Input",
+              "x": 0.021449999999999997,
+              "y": 0.20800000000000002,
+              "uniqueID": "id-9666",
+              "name": "j"
             },
             {
               "atomType": "Molecule",
@@ -327,6 +327,11 @@
                 {
                   "name": "k",
                   "ioValue": 50
+                },
+                {
+                  "name": "l",
+                  "ioValue": 190,
+                  "currentEquation": "h + j"
                 }
               ],
               "topLevel": false,
@@ -364,6 +369,12 @@
                   "y": 0.6829268292682927,
                   "uniqueID": "id-9704",
                   "name": "h + j",
+                  "ioValues": [
+                    {
+                      "name": "j",
+                      "ioValue": 1
+                    }
+                  ],
                   "currentEquation": "h + j"
                 },
                 {
@@ -434,6 +445,14 @@
               ],
               "allConnectors": [],
               "fileTypeVersion": 1
+            },
+            {
+              "atomType": "Equation",
+              "x": 0.15826330532212887,
+              "y": 0.6985074626865672,
+              "uniqueID": "id-10076",
+              "name": "h + j",
+              "currentEquation": "h + j"
             }
           ],
           "allConnectors": [
@@ -444,14 +463,6 @@
             }
           ],
           "fileTypeVersion": 1
-        },
-        {
-          "atomType": "Equation",
-          "x": 0.1799719887955182,
-          "y": 0.6447761194029851,
-          "uniqueID": "id-9999",
-          "name": "g + f",
-          "currentEquation": "g + f"
         }
       ],
       "allConnectors": [
