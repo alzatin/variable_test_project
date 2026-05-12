@@ -226,8 +226,8 @@
         },
         {
           "atomType": "Rectangle",
-          "x": 0.3915857605177993,
-          "y": 0.7113163972286374,
+          "x": 0.39193825042881647,
+          "y": 0.7073170731707318,
           "uniqueID": "id-9732",
           "ioValues": [
             {
@@ -262,16 +262,11 @@
         },
         {
           "atomType": "Molecule",
-          "x": 0.31474480151228734,
-          "y": 0.3445121951219512,
+          "x": 0.32504288164665524,
+          "y": 0.3628048780487805,
           "uniqueID": "id-9644",
           "name": "Level2Branch1Twig1",
           "ioValues": [
-            {
-              "name": "a",
-              "ioValue": 20,
-              "currentEquation": "a"
-            },
             {
               "name": "b",
               "ioValue": 30,
@@ -314,13 +309,6 @@
                   "ioValue": "__GEOMETRY_INPUT__"
                 }
               ]
-            },
-            {
-              "atomType": "Input",
-              "x": 0.0264,
-              "y": 0.16,
-              "uniqueID": "id-9648",
-              "name": "a"
             },
             {
               "atomType": "Input",
@@ -417,16 +405,11 @@
             },
             {
               "atomType": "Molecule",
-              "x": 0.38164665523156094,
-              "y": 0.5914634146341463,
+              "x": 0.37821612349914235,
+              "y": 0.5792682926829268,
               "uniqueID": "id-9669",
               "name": "Level3Branch1Twig1Leaf1",
               "ioValues": [
-                {
-                  "name": "a",
-                  "ioValue": 20,
-                  "currentEquation": "a"
-                },
                 {
                   "name": "b",
                   "ioValue": 30,
@@ -476,13 +459,6 @@
                       "ioValue": "__GEOMETRY_INPUT__"
                     }
                   ]
-                },
-                {
-                  "atomType": "Input",
-                  "x": 0.0264,
-                  "y": 0.16,
-                  "uniqueID": "id-9673",
-                  "name": "a"
                 },
                 {
                   "atomType": "Input",
@@ -562,13 +538,14 @@
                 },
                 {
                   "atomType": "Rectangle",
-                  "x": 0.29845626072041165,
-                  "y": 0.7317073170731707,
+                  "x": 0.3010291595197256,
+                  "y": 0.7195121951219512,
                   "uniqueID": "id-9712",
                   "ioValues": [
                     {
                       "name": "x length",
-                      "ioValue": 10
+                      "ioValue": 20,
+                      "currentEquation": "a"
                     },
                     {
                       "name": "y length",
