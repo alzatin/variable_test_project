@@ -6,20 +6,20 @@
   "name": "variable_test_project",
   "ioValues": [
     {
-      "name": "a",
-      "ioValue": 20
-    },
-    {
       "name": "b",
       "ioValue": 30
     },
     {
-      "name": "c",
-      "ioValue": 40
-    },
-    {
       "name": "d",
       "ioValue": 50
+    },
+    {
+      "name": "a",
+      "ioValue": 20
+    },
+    {
+      "name": "c",
+      "ioValue": 40
     }
   ],
   "topLevel": true,
@@ -82,8 +82,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.26937618147448017,
-      "y": 0.5182926829268293,
+      "x": 0.2810140237324703,
+      "y": 0.4942263279445727,
       "uniqueID": "id-9613",
       "name": "Level1Branch2",
       "topLevel": false,
@@ -130,8 +130,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.49432892249527416,
-      "y": 0.33231707317073167,
+      "x": 0.27939590075512405,
+      "y": 0.2817551963048499,
       "uniqueID": "id-9609",
       "name": "Level1Branch1",
       "ioValues": [
@@ -226,8 +226,8 @@
         },
         {
           "atomType": "Rectangle",
-          "x": 0.39193825042881647,
-          "y": 0.7073170731707318,
+          "x": 0.3915857605177993,
+          "y": 0.7113163972286374,
           "uniqueID": "id-9732",
           "ioValues": [
             {
@@ -244,8 +244,8 @@
         },
         {
           "atomType": "Rectangle",
-          "x": 0.5643224699828474,
-          "y": 0.24695121951219512,
+          "x": 0.4255663430420712,
+          "y": 0.3394919168591224,
           "uniqueID": "id-9736",
           "ioValues": [
             {
@@ -262,11 +262,16 @@
         },
         {
           "atomType": "Molecule",
-          "x": 0.32504288164665524,
-          "y": 0.3628048780487805,
+          "x": 0.2718696397941681,
+          "y": 0.25,
           "uniqueID": "id-9644",
           "name": "Level2Branch1Twig1",
           "ioValues": [
+            {
+              "name": "a",
+              "ioValue": 20,
+              "currentEquation": "a"
+            },
             {
               "name": "b",
               "ioValue": 30,
@@ -309,6 +314,13 @@
                   "ioValue": "__GEOMETRY_INPUT__"
                 }
               ]
+            },
+            {
+              "atomType": "Input",
+              "x": 0.0264,
+              "y": 0.16,
+              "uniqueID": "id-9648",
+              "name": "a"
             },
             {
               "atomType": "Input",
@@ -370,8 +382,8 @@
             },
             {
               "atomType": "Rectangle",
-              "x": 0.5699432892249527,
-              "y": 0.3292682926829268,
+              "x": 0.38996763754045305,
+              "y": 0.3556581986143187,
               "uniqueID": "id-9724",
               "ioValues": [
                 {
@@ -388,8 +400,8 @@
             },
             {
               "atomType": "Rectangle",
-              "x": 0.45368620037807184,
-              "y": 0.33536585365853655,
+              "x": 0.38673139158576053,
+              "y": 0.5450346420323325,
               "uniqueID": "id-9728",
               "ioValues": [
                 {
@@ -405,11 +417,16 @@
             },
             {
               "atomType": "Molecule",
-              "x": 0.37821612349914235,
-              "y": 0.5792682926829268,
+              "x": 0.27358490566037735,
+              "y": 0.646341463414634,
               "uniqueID": "id-9669",
               "name": "Level3Branch1Twig1Leaf1",
               "ioValues": [
+                {
+                  "name": "a",
+                  "ioValue": 20,
+                  "currentEquation": "a"
+                },
                 {
                   "name": "b",
                   "ioValue": 30,
@@ -422,11 +439,13 @@
                 },
                 {
                   "name": "g",
-                  "ioValue": 10
+                  "ioValue": 50,
+                  "currentEquation": "g"
                 },
                 {
                   "name": "f",
-                  "ioValue": 10
+                  "ioValue": 90,
+                  "currentEquation": "f"
                 },
                 {
                   "name": "h",
@@ -459,6 +478,13 @@
                       "ioValue": "__GEOMETRY_INPUT__"
                     }
                   ]
+                },
+                {
+                  "atomType": "Input",
+                  "x": 0.0264,
+                  "y": 0.16,
+                  "uniqueID": "id-9673",
+                  "name": "a"
                 },
                 {
                   "atomType": "Input",
@@ -504,16 +530,16 @@
                 },
                 {
                   "atomType": "Equation",
-                  "x": 0.14272211720226843,
-                  "y": 0.3048780487804878,
+                  "x": 0.13052858683926646,
+                  "y": 0.20554272517321018,
                   "uniqueID": "id-9700",
                   "name": "a + b",
                   "currentEquation": "a + b"
                 },
                 {
                   "atomType": "Equation",
-                  "x": 0.1275992438563327,
-                  "y": 0.5792682926829268,
+                  "x": 0.1267529665587918,
+                  "y": 0.4434180138568129,
                   "uniqueID": "id-9704",
                   "name": "h + j",
                   "currentEquation": "h + j"
@@ -538,19 +564,18 @@
                 },
                 {
                   "atomType": "Rectangle",
-                  "x": 0.3010291595197256,
-                  "y": 0.7195121951219512,
+                  "x": 0.2504288164665523,
+                  "y": 0.6524390243902439,
                   "uniqueID": "id-9712",
                   "ioValues": [
                     {
                       "name": "x length",
-                      "ioValue": 20,
-                      "currentEquation": "a"
+                      "ioValue": 50,
+                      "currentEquation": "h"
                     },
                     {
                       "name": "y length",
-                      "ioValue": 10,
-                      "currentEquation": "z"
+                      "ioValue": 10
                     }
                   ]
                 },
@@ -570,8 +595,8 @@
                 },
                 {
                   "atomType": "Rectangle",
-                  "x": 0.3638941398865785,
-                  "y": 0.4085365853658537,
+                  "x": 0.36192017259978426,
+                  "y": 0.41108545034642036,
                   "uniqueID": "id-9746",
                   "ioValues": [
                     {
